@@ -24,5 +24,6 @@ public class InvoiceApplication {
 					System.out.println(array[n]);
 				}
 				System.out.println("\n"+sum+" subtotal\n"+tax+" tax\n" + total+" grand total");
+				keyboard.close();
 			}
 }
